@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Card } from "./card.jsx";
+import { Card } from "./Card.jsx";
 import * as XLSX from "xlsx";
 
 const Grid = ({ cartas }) => (
