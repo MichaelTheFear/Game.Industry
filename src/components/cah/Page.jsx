@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 // css class for width can
 const Page = () => (
   <div className="flex justify-center items-center h-screen bg-slate-950 text-white">
@@ -46,7 +47,7 @@ const Page = () => (
       <br />
       <div className="flex justify-center items-center">
       <div className="flex justify-center items-center bg-white hover:bg-slate-950 text-black hover:text-white transition-colors duration-300 shadow-md rounded-lg text-3xl w-1/2 h-16">
-        <a href="/cah/card-creator">Simbora</a>
+        <Link to="/cah/card-creator">Simbora</Link>
       </div>
       </div>
     </div>
