@@ -8,7 +8,6 @@ const height = trueHeight / ratio;
 
 export const Card = ({ text, isBlack }) => {
   const { fontSize, ref } = useSize({maxFontSize: 550});
-  console.log(fontSize);
   return (
     <div style={{width,height,border:'white 3px solid'}}>
       <div 
