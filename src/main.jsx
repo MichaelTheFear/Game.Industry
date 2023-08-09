@@ -16,7 +16,7 @@ const router = createBrowserRouter([
     { path: "/cah", element: <CAH /> },
     { path: "/cah/card-creator", element: <CAHCardCreator /> },
     { path: "/trunfo", element: <Trunfo /> },
-  ],{basename: import.meta.env.DEV ? '/' : '/Game.Industry/'});
+  ],{basename: import.meta.env.DEV ? '' : '/Game.Industry'});
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
