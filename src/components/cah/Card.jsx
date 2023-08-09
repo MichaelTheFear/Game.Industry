@@ -26,7 +26,7 @@ export const Card = ({ text, isBlack }) => {
         {text}
         </span>
       </div>
-      <img src={isBlack ? "../public/cah_b.png" : "../public/cah_w.png"} width={width} height={height}/>
+      <img src={isBlack ? "/cah_b.png" : "/cah_w.png"} width={width} height={height}/>
     </div>
   );
 };
